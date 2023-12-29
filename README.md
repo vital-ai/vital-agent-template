@@ -1,1 +1,1 @@
-# vital-agent-template
+# vital-agent-template-python
