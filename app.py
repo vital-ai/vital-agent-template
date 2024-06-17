@@ -1,12 +1,6 @@
-from flask import Flask
+from vital_agent_template.vital_agent_fastapi_app import VitalAgentFastAPIApp
 
-app = Flask(__name__)
-
-
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
-
+app = VitalAgentFastAPIApp()
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=6000)
+    print('Hello World')
