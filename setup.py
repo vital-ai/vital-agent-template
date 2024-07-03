@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='vital-agent-template',
-    version='0.1.0',
+    version='0.1.1',
     author='Marc Hadfield',
     author_email='marc@vital.ai',
     description='Vital Agent Template',
@@ -13,11 +13,13 @@ setup(
     license='Apache License 2.0',
     install_requires=[
         'vital-ai-vitalsigns>=0.1.19',
-        'PyYAML>=6.0.1'
+        'PyYAML>=6.0.1',
+        'vital-agent-container-sdk>=0.1.0'
     ],
     extras_require={
         'dev': [
-            'wheel>=0.43.0'
+            'wheel>=0.43.0',
+            'twine'
         ],
     },
     classifiers=[
