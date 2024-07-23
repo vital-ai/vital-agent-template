@@ -1,3 +1,4 @@
 vital-ai-vitalsigns>=0.1.19
 PyYAML>=6.0.1
-vital-agent-container-sdk>=0.1.0
+vital-agent-container-sdk>=0.1.1
+uvicorn[standard]==0.27.0.post1
