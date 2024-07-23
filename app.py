@@ -1,6 +1,7 @@
-from vital_agent_template.vital_agent_fastapi_app import VitalAgentFastAPIApp
 
-app = VitalAgentFastAPIApp()
+
+# instantiate app from container sdk using locally defined handler
 
 if __name__ == '__main__':
-    print('Hello World')
+    print('Hello Agent Template')
+
